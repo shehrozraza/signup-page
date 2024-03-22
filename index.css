@@ -1,0 +1,76 @@
+body{
+    background-image: url(https://preview.redd.it/how-can-someone-make-this-background-with-html-and-css-i-v0-zjgs096khv591.jpg?width=1080&crop=smart&auto=webp&s=5ec8b5f14222e27eecd19b9f5428793bcc857b58);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: rgba(0, 0, 0, 0.526);
+    height: 60px;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bolder;
+    color: red;
+    margin-top: -18px;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+.loginButton{
+    background-color: red;
+    color: white;
+    margin-left: 70%;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    margin-top: -1px;
+}.box{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.526);
+    width: 500px;
+    height: 100px;
+    margin-top: 240px;
+    color: red;
+}
+.email{
+    background-color: rgba(0, 0, 0, 0.526);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    ;
+}
+.text{
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.p{
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.input{
+    background-color: rgba(0, 0, 0, 0.236);
+    height: 40px;
+    width: 400px;
+    margin-top: -10px;
+    border-radius: 10px;
+}
+.but{
+    background-color: red;
+    color: white;
+    height: 48px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
