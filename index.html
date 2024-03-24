@@ -8,27 +8,16 @@
     <script src="index.js"></script>
 </head>
 <body>
-    <div class="header">NETFLIX
-        <button onclick="document.location='http://127.0.0.1:5500/login.html'" class="loginButton">signin</button>
-    </div>
-    <div class="text">
-        <h1>Unlimited Movies,
-            <br>
-            TV shows, and more
-        </h1>
-    </div>
-    <div class="p">
-        <p>Watch anywhere. Cancel anytime.
-<br><br>
-            Ready to watch? Enter your email to create or restart your membership.</p>
-    </div>
-    <br><br>
-    <div class="form">
-        <form>
-            <input class="input" id="email" type="email">
-            <button onclick="myFunc()" class="but">Get Started</button>
-        </form>
-    </div>
-    <script src="index.js"></script>
+    <form class="contact">
+        <div class="ContactUS">Contact Us</div>
+        <br>
+        <div>
+            <input placeholder="Full Name" class="name" id="name" type="text">
+            <input placeholder="Email" class="email" id="email" type="email">
+            <input placeholder="Contact No." class="contactNo" id="contactNo" type="number">
+        </div>
+            <input placeholder="Subject" class="subject" id="subject" type="text">
+            <button onclick="Data()" class="submit">submit</button>
+    </form>
 </body>
 </html>

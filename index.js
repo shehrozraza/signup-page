@@ -1,11 +1,8 @@
-function myFunc(){
+function Data() {
     event.preventDefault()
-    let email=document.getElementById("email").value
-    console.log(email);
-    if(email=='testerstaff@gmail.com'){
-        console.log(localStorage.setItem("email",email))
-        document.location='http://127.0.0.1:5500/login.html'
-    }else{
-        alert("login failed")
-    }
+    let name = document.getElementById('name').value
+    let email = document.getElementById('email').value
+    let contactNo = document.getElementById('contactNo').value
+    let subject = document.getElementById("subject").value
+    console.log(name,email,contactNo,subject);
 }

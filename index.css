@@ -1,76 +1,90 @@
 body{
-    background-image: url(https://preview.redd.it/how-can-someone-make-this-background-with-html-and-css-i-v0-zjgs096khv591.jpg?width=1080&crop=smart&auto=webp&s=5ec8b5f14222e27eecd19b9f5428793bcc857b58);
-    background-size: cover;
+    background-image: url("./netflixteaser.png");
     background-repeat: no-repeat;
-    margin: 0px;
-    padding: 0px;
+    
 }
-.header{
-    background-color: rgba(0, 0, 0, 0.526);
-    height: 60px;
-    font-size: 50px;
-    font-style: italic;
-    font-weight: bolder;
-    color: red;
-    margin-top: -18px;
-    padding-top: 5px;
-    margin-left: 10px;
+
+body,html{
+    background-size: cover;
 }
-.loginButton{
-    background-color: red;
-    color: white;
-    margin-left: 70%;
-    padding: 10px;
-    border-radius: 15px;
-    font-size: 15px;
-    margin-top: -1px;
-}.box{
-    display: flex;
+.background{
+    height: 100%;
+    width: 100%;
+}
+.contact{
     justify-content: center;
-    margin: auto;
-    background-color: rgba(0, 0, 0, 0.526);
-    width: 500px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.266);
     height: 100px;
-    margin-top: 240px;
-    color: red;
+    width: 1170px;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 20px;
+}
+.ContactUS{
+    justify-content: center;
+    text-align: center;
+    margin-left: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 75px;
+    color: white;
+}
+.name{
+
+    height: 50px;
+    width: 358px;
+    margin-top: 80px;
+
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 20px;
+    border-radius: 13px;
 }
 .email{
-    background-color: rgba(0, 0, 0, 0.526);
-    margin: 0;
-    padding: 0;
-    display: flex;
-    ;
-}
-.text{
-    color: white;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    margin-top: 50px;
-}
-.p{
-    color: white;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-.form{
     display: flex;
     justify-content: center;
-    text-align: center;
+    margin-left: 10px;
+    margin-top: -61px;
+    height: 55px;
+    width: 358px;
+    border-radius: 13px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    opacity: 75%;
+    font-size: 20px
 }
-.input{
-    background-color: rgba(0, 0, 0, 0.236);
-    height: 40px;
-    width: 400px;
-    margin-top: -10px;
-    border-radius: 10px;
+.contactNo{
+    display: flex;
+    justify-content: center;
+    margin-left: 805px;
+    margin-top: -61px;
+    height: 55px;
+    width: 358px;
+    border-radius: 13px;
+    background-color: rgb(255, 255, 255);
+    opacity: 75%;
+    color: black;
+    font-size: 20px
 }
-.but{
-    background-color: red;
-    color: white;
-    height: 48px;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
+.subject{
+    margin-top: 10px;
+    height: 50px;
+    opacity: 75%;
+    width: 1158px;
+    border-radius: 13px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 20px;
+    margin-left: 8px;
+}
+.submit{
+    margin-top:36px;
+    height: 38px;
+    width: 120px;
+    opacity: 75%;
+    border-radius: 13px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.619);
+    background-color: white;
 }
